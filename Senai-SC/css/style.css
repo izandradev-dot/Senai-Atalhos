@@ -64,7 +64,7 @@
 
 
 body{
-    font-family: "American Typewriter", cursive;
+    font-family: "Comic Sans MS";
     background-color: rgb(181, 215, 236);
     display: flex;
     flex-direction: column;
