@@ -1,0 +1,231 @@
+@media (max-width: 768px) {
+
+    header {
+        padding: 30px;
+        font-size: 18px;
+    }
+
+    header img {
+        width: 80px;
+        margin: 0 0 10px 0;
+    }
+
+    main.layout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info,
+    .senaisites,
+    .outrosites {
+        max-width: 100%;
+        padding: 25px;
+    }
+
+    body p {
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+.dark-mode{
+    background-color:  rgb(2, 16, 22);
+    color: #ffffff;
+}
+.dark-mode header{
+    background-color: rgb(5, 44, 59);
+    color: rgb(183, 208, 221);
+} 
+.dark-mode .info{
+    background-color: rgb(5, 44, 59);
+    color: rgb(183, 208, 221);
+}
+.dark-mode .senaisites{
+    background-color: rgb(5, 44, 59);
+    color: rgb(183, 208, 221);
+}
+.dark-mode .outrosites{
+    background-color: rgb(5, 44, 59);
+    color: rgb(183, 208, 221);
+}
+
+.dark-mode p.antonio {
+    color: rgb(5, 44, 59);
+}
+
+.dark-mode footer{
+    background-color: rgb(5, 44, 59);
+    color: rgb(183, 208, 221);
+}
+
+
+body{
+    font-family: "Comic Sans MS";
+    background-color: rgb(181, 215, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min(100%, 900px);
+    max-width: 900px;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+    color: rgb(23, 97, 126);
+    font-size: 20px;
+}
+
+body p{
+    font-size: 18px;
+}
+
+header{
+    background-color: #ffffff;
+    color: rgb(23, 97, 126);
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 35px 25px;
+    border-radius: 20px;
+    border: 1px solid rgb(23, 97, 126);
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+
+header img{
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 5px auto 10px;
+}
+
+.animada{
+    position: absolute;
+    animation: mover 5s linear infinite;
+}
+@keyframes mover {
+    0% {transform: translateX(-100%); }
+    100% { transform: translateX(100vw); }
+}
+
+button {
+    background-color: rgb(183, 208, 221);
+    color: rgb(23, 97, 126);
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid rgb(23, 97, 126);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+}
+button:hover {
+    background-color: #7795af;
+}
+
+p.antonio {
+    color: #ffffff;
+}
+
+.boleto:hover + p.antonio {
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #7795af;
+}
+
+h4{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.kitty{
+    position: center;
+}
+
+.kittydown{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: auto;
+    z-index: 9999;
+}
+
+.info{
+    background-color: #ffffff;
+    color: rgb(23, 97, 126);
+    font-size: 20px;
+    flex: 1 1 280px;
+    max-width: 300px;
+    text-align: center;
+    padding: 35px 25px;
+    border-radius: 20px;
+    border: 1px solid rgb(23, 97, 126);
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+.info p{
+    text-align: center;
+}
+
+.senaisites{
+    background-color: #ffffff;
+    color: rgb(23, 97, 126);
+    font-size: 20px;
+    flex: 1 1 280px;
+    max-width: 300px;
+    text-align: center;
+    padding: 35px 25px;
+    border-radius: 20px;
+    border: 1px solid rgb(23, 97, 126);
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+.outrosites{
+    background-color: #ffffff;
+    color: rgb(23, 97, 126);
+    font-size: 20px;
+    flex: 1 1 280px;
+    max-width: 400px;
+    text-align: center;
+    padding: 35px 25px;
+    border-radius: 20px;
+    border: 1px solid rgb(23, 97, 126);
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+footer{
+    background-color: #ffffff;
+    color: rgb(23, 97, 126);
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(23, 97, 126);
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+footer p{
+    font-size: 15px;
+}
